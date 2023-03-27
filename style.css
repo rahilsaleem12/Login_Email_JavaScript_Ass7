@@ -1,0 +1,174 @@
+.main1{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(231, 204, 80);
+    margin: 0% auto;
+    border-radius: 100px 0px 100px 0px;
+    padding-top: 3%;
+
+}
+.topheading{
+    width: 100%;
+    text-align: center;
+}
+.email1{
+    width: 50%;
+    display: flex;
+    margin: 0% auto;
+
+}
+.email1 input{
+width: 50%;
+height: 30px;
+margin-left: 20%;
+border-radius: 5px;
+text-align: center;
+
+}
+.pasword1{
+    width: 50%;
+    display: flex;
+    margin: 0% auto;
+}
+.pasword1 input{
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+.confirmpasword1{
+    width: 50%;
+    display: flex;
+    margin: 0% auto;
+}
+.confirmpasword1 input{
+    width: 50%;
+    height: 30px;
+    margin-left: 7%;
+    border-radius: 5px;
+    text-align: center;
+    }
+.next1{
+    width: 12%;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    display: inline-block;
+    margin-left: 73%;
+    cursor: pointer;
+
+
+}
+.back1{
+    width: 10%;
+    background-color:  rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    border-radius: 7px;  
+    display: inline-block;
+    margin-left: 3%;
+    cursor: pointer;
+
+
+}
+.backandnext{
+  /* margin: 0% auto;
+  width: 100%;   */
+  margin-top: 15%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+.main2{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(231, 204, 80);
+    margin: 0% auto;
+    border-radius: 100px 0px 100px 0px;
+    padding-top: 3%;
+
+}
+.topheading2{
+    width: 100%;
+    text-align: center;
+}
+.email2{
+    width: 50%;
+    display: flex;
+    margin: 0% auto;
+
+}
+.email2 input{
+width: 50%;
+height: 30px;
+margin-left: 20%;
+border-radius: 5px;
+text-align: center;
+
+}
+.pasword2{
+    width: 50%;
+    display: flex;
+    margin: 0% auto;
+}
+.pasword2 input{
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+.confirmpasword2{
+    width: 50%;
+    display: flex;
+    margin: 0% auto;
+}
+.confirmpasword2 input{
+    width: 50%;
+    height: 30px;
+    margin-left: 7%;
+    border-radius: 5px;
+    text-align: center;
+    }
+.next2{
+    width: 12%;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    display: inline-block;
+    margin-left: 73%;
+    cursor: pointer;
+
+
+}
+.back2{
+    width: 10%;
+    background-color:  rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    border-radius: 7px;  
+    display: inline-block;
+    margin-left: 3%;
+    cursor: pointer;
+
+
+}
+.backandnext2{
+  /* margin: 0% auto;
+  width: 100%;   */
+  margin-top: 15%;
+} 

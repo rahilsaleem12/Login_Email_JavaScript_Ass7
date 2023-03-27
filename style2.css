@@ -1,0 +1,642 @@
+.main{
+    width: 100%;
+}
+.header{
+    display: flex; 
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+
+.toplogo{
+    width: 45%;
+}
+.navbar{
+ text-decoration: none; 
+width: 55%;
+position: fixed;
+
+}
+.Navbar ul li{
+    text-decoration: none;
+    display: inline-block; 
+    margin: 0%;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(83, 80, 80);
+    font-size: 18px;
+}
+.Navbar ul li:hover {
+    background-color: darkgoldenrod;
+    color: white;
+    border-top: 5px solid rgb(136, 100, 9);
+    border-bottom: 5px solid rgb(136, 100, 9);
+    cursor: pointer;
+}
+.section1{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin: 0% auto;
+    width: 70%;
+    font-size: 20px;
+    
+}
+.section1main{
+    background-color: #e0c171;
+    
+}
+.sec1heading{
+    font-size: 40px;
+}
+.sec1button{
+    width: 110px;
+    height: 50px;
+    background-color:  rgb(136, 100, 9);
+    color: white;
+    border: none;
+    text-align: center;
+}
+.sec1para1{
+    color:  darkgoldenrod;
+}
+.sec1button h5{
+    padding-top: 12px;
+}
+.sec1button:hover{
+    background-color:  black;
+    cursor: pointer;
+}
+.section2{
+    flex-direction: row;
+    margin-top: 100px;
+    display: flex;
+ 
+}
+.aboutus{
+    width: 50%;
+    height: 450px;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+.aboutus p{
+    color: white;
+}
+.aboutus h2{
+    color:   darkgoldenrod;
+}
+.sec2image{
+    display: inline-block;
+    width: 50%;
+}
+.sec2image img{
+    height: 550px;
+    width: 100%;
+}
+.sec2button{
+    width: 110px;
+    height: 50px;
+    background-color:  rgb(136, 100, 9);
+    color: white;
+    border: none;
+    text-align: center;  
+    border-radius: 5px; 
+}
+.sec2button h5{
+    padding-top: 12px;
+    }
+    .sec2button:hover{
+    background-color: black;
+    cursor: pointer;
+    }
+.section3{
+    display: flex;
+    width: 80%;
+    margin: 0% auto;
+   margin-top: 100px; 
+   color: white;
+}
+.sec3vision{
+background-color: darkgoldenrod;;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 10px;
+text-align: center;
+font-size: larger;
+width: 90%;
+margin-right: 20px;
+height: 450px;
+}
+.sec3mision{
+background-color: black;;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 10px;
+text-align: center;
+font-size: larger;
+width: 90%;
+}
+.sec3values{
+background-color: darkgoldenrod;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 10px;
+text-align: center;
+font-size: larger;
+width: 90%;
+margin-left: 20px;
+
+}
+.sec3heading{
+    text-align: center;
+color: rgb(136, 100, 9);
+font-size: 20px;
+}
+
+
+.Topsection img{
+height: 25px;
+width: 25px;
+padding-top: 8px;
+cursor: pointer;
+margin: 8px;
+}
+.Topsection{
+   
+padding-left: 40%;
+width: 100%;
+}
+
+
+/* .topsextiontrtd{
+ 
+background-color: darkgoldenrod;
+color: white;
+font-weight: bolder;
+height: 50px;
+
+} */
+
+.section4{
+    width: 70%;
+    margin: 0% auto;
+    
+}
+.sec4mainheading{
+    margin-top: 150px;
+    text-align: center;
+    color:rgb(136, 100, 9);
+}
+
+.sec4images{
+    display: flex;
+
+}
+.sec4image1{
+width: 33%;
+}
+.sec4image2{
+width: 33%;
+}
+.sec4image3{
+width: 33%;
+}
+.sec4image1 img{
+width: 100%;
+height: 300px;
+}
+.sec4image2 img{
+width: 100%;
+height: 300px;
+}
+.sec4image3 img{
+width: 100%;
+height: 300px;
+}
+.mainsection4{
+    background-color: rgb(0, 0, 0);color: white;
+    text-align: center;
+    height: 800px;
+}
+.mainsection4{
+    padding-top: 100px;
+    font-size: 20px;
+}
+.mainsection4 p{
+ color: darkgoldenrod;
+}
+.mainsection4 b{
+ color: darkgoldenrod;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-size: 15px;
+}
+.section5{
+    width: 50%;
+    margin: 0% auto;
+
+}
+.section5head{
+    text-align: center;
+    color: rgb(136, 100, 9);
+}
+.iconbox1{
+    width: 50%;
+    height: 160px;
+    background-color:rgb(0, 0, 0);
+    padding: 0px 30px 0px 30px;
+    color: white;
+    border-radius: 10px;
+}
+.iconbox2{
+    width: 50%;
+    height: 160px;
+    background-color:darkgoldenrod;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+
+
+}
+.iconbox3{
+    background-color:darkgoldenrod;
+    padding: 0px 30px 0px 30px;
+    color: white;
+    width: 50%;
+    height: 160px;
+    border-radius: 10px;
+
+}
+.iconbox4{
+    background-color:rgb(0, 0, 0);
+    padding: 0px 30px 0px 30px;
+    color: white;
+    width: 50%;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+.iconbox1or2{
+    display: flex;
+    width: 80%;
+    margin: 0% auto;
+}
+.iconbox3or4{
+    display: flex;
+    width: 80%;
+    margin: 0% auto;
+}
+.footerbar ul li{
+text-decoration: none;
+display: inline-block;
+margin: 10px;
+padding-top: 70px;
+cursor: pointer;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media (max-width: 400px){
+
+   .main{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+.toplogo{
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.Navbar{
+width: 100%;
+/* height: 100px; */
+
+}
+.Navbar ul li{
+    display: inline-block; 
+    margin: 0%;
+    height: 20px;
+    flex-direction: row;
+        width: 55px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(83, 80, 80);
+    font-size: 8px;
+    font-weight: bold;
+    
+}
+.Navbar ul li:hover {
+    background-color: darkgoldenrod;
+    color: white;
+    border-top: 5px solid rgb(136, 100, 9);
+    border-bottom: 5px solid rgb(136, 100, 9);
+    cursor: pointer;
+}
+.section1{
+    padding-top: 170px;
+    padding-bottom: 90px;
+    margin: 0% auto;
+    width: 90%;
+    font-size: 15px;
+    
+}
+.section1main{
+    background-color: #e0c171;
+    width: 100%;
+}
+.sec1heading{
+    font-size: 15px;
+}
+.sec1button{
+    width:90px;
+    height: 40px;
+    background-color:  rgb(136, 100, 9);
+    color: white;
+    border: none;
+    text-align: center;
+}
+.sec1para1{
+    color:  darkgoldenrod;
+}
+.sec1button h5{
+    padding-top: 10px;
+}
+.sec1button:hover{
+    background-color:  black;
+    cursor: pointer;
+}
+.section2{
+   
+    margin-top: 0px;
+    flex-direction: column;
+ 
+}
+.aboutus{
+    width: 100%;
+    height: 450px;
+    font-size: 15px;
+    padding-left: 0%;
+    padding-right: 0%;
+    /* display: block; */
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.aboutus p{
+padding-left: 10px;
+padding-right: 10px;
+}
+.aboutus p{
+    color: white;
+}
+.aboutus h2{
+    color:   darkgoldenrod;
+}
+.sec2image{
+    /* display: block; */
+    width: 100%;
+    /* display: none; */
+}
+.sec2image img{
+    height: 400px;
+    width: 100%;
+}
+
+.sec2button{
+    width: 110px;
+    height: 50px;
+    background-color:  rgb(136, 100, 9);
+    color: white;
+    border: none;
+    text-align: center;  
+    border-radius: 5px; 
+
+}
+.sec2button h5{
+    padding-top: 15px;
+    }
+    .sec2button:hover{
+    background-color: black;
+    cursor: pointer;
+    }
+.section3{
+    /* display: flex;  */
+    /* width: 80%;
+    margin: 0% auto; */
+   margin-top: 30px; 
+   color: white;
+   flex-direction: column;
+   width: 100%;
+}
+.sec3vision{
+background-color: darkgoldenrod;;
+
+/* padding-left: 20px;
+padding-right: 20px; */
+border-radius: 10px;
+text-align: center;
+font-size: large;
+height: 550px;
+width: 90%;
+margin: 0% auto;
+}
+.sec3mision{
+background-color: black;;
+/* padding-left: 20px;
+padding-right: 20px; */
+border-radius: 10px;
+text-align: center;
+font-size: large;
+height: 550px;
+margin-top: 20px;
+width: 90%;
+display: block;
+/* margin-left: 0%; */
+
+
+}
+.sec3values{
+background-color: darkgoldenrod;
+/* padding-left: 20px;
+padding-right: 20px; */
+border-radius: 10px;
+text-align: center;
+font-size: large;
+height: 550px;
+width: 90%;
+margin-top: 20px;
+margin-left: 0%;
+display: block;
+}
+
+
+.section4{
+    width: 90%;
+    margin: 0% auto;
+    
+}
+.sec4mainheading{
+    margin-top: 150px;
+    text-align: center;
+    color:rgb(136, 100, 9);
+}
+
+.sec4images{
+    /* display: flex; */
+flex-direction: column;
+}
+.sec4image1{
+width: 100%;
+margin-top: 80px;
+
+}
+.sec4image2{
+width: 100%;
+margin-top: 80px;
+}
+.sec4image3{
+width: 100%;
+margin-top: 80px;
+
+}
+.sec4image1 img{
+width: 100%;
+height: 250px;
+}
+.sec4image2 img{
+width: 100%;
+height: 250px;
+}
+.sec4image3 img{
+width: 100%;
+height: 250px;
+}
+.mainsection4{
+    background-color: rgb(0, 0, 0);color: white;
+    text-align: center;
+    height: 1600px;
+    width: 100%;
+    padding-top: 50px;
+    font-size: 15px;
+}
+.mainsection4 p{
+ color: darkgoldenrod;
+}
+.mainsection4 b{
+ color: darkgoldenrod;
+ /* padding-left: 20px;
+ padding-right: 20px; */
+ font-size: 12px;
+}
+
+.section5{
+    width: 80%;
+    margin: 0% auto;
+
+}
+.section5head{
+    text-align: center;
+    color: rgb(136, 100, 9);
+}
+.iconbox1{
+    width: 90%;
+    height: 210px;
+    background-color:rgb(0, 0, 0);
+    padding: 0px 15px 0px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 0%;
+}
+.iconbox2{
+    width: 90%;
+    height: 210px;
+    background-color:darkgoldenrod;
+    padding: 0px 15px 0px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0%;
+
+
+
+}
+.iconbox3{
+    background-color:rgb(0, 0, 0);
+    padding: 0px 15px 0px 15px;
+    color: white;
+    width: 90%;
+    height: 210px;
+    border-radius: 10px;
+    /* margin-left: 0%; */
+
+
+}
+.iconbox4{
+    background-color:darkgoldenrod;
+    padding: 10px 15px 0px 15px;
+    color: white;
+    width: 90%;
+    height: 210px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0%;
+
+    /* margin-left: 0%; */
+
+}
+.iconbox1or2{
+    /* display: flex; */
+    flex-direction: column;
+    width: 100%;
+    margin: 0% auto;
+    margin-right: 10%;
+}
+.iconbox3or4{
+    /* display: flex; */
+    flex-direction: column;
+    width: 100%;
+    margin: 0% auto;
+}
+.footerbar ul li{
+text-decoration: none;
+display: inline-block;
+margin: 5px;
+padding-top: 20px;
+cursor: pointer;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+
+}
