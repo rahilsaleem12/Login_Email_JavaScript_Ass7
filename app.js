@@ -8,7 +8,7 @@ function signup() {
   passwords.push(signupPassword);
   console.log(signupEmail);
   console.log(signupPassword);
-  window.location.href = "/index2.html";
+  window.location.href = "./index2.html";
 }
 
 function login() {
