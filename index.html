@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="main1" onsubmit="signup(); return false" >
+    <section class="main1">
         <div class="topheading2">
            <h1> Sign Up</h1>
         </div>
         <div class="email1">
             <h4>User Eamil</h4>
-            <input type="email" id="inputemail1">
+            <input type="text" id="inputemail1">
         </div>
         <div class="pasword1">
             <h4>Pasword</h4>
-            <input type="password" id="inputpasword1">
+            <input type="text" id="inputpasword1">
         </div>
         <!-- <div class="confirmpasword1">
             <h4>Confirm Pasword</h4>
@@ -29,10 +29,43 @@
 
         
         <div class="next1">
-         <button type="submit" >Sign up</button>
+         <button onclick="signup()">Sign up</button>
         </div>
    
-    </form>
+    </section>
+
+<br><br><br><br><br>
+
+    <section class="main2">
+        <div class="topheading2">
+           <h1> Sign in</h1>
+        </div>
+        <div class="email2">
+            <h4>User Eamil</h4>
+            <input type="text" id="inputemail2">
+        </div>
+        <div class="pasword2">
+            <h4>Pasword</h4>
+            <input type="text" id="inputpasword2">
+        </div>
+        <!-- <div class="confirmpasword2">
+            <h4>Confirm Pasword</h4>
+            <input type="password" id="inputpaswor">
+        </div> -->
+        
+        <!-- <div class="backandnext2">
+            <div class="back2">
+               <a href="./index.html"><button>Back</button></a> 
+            </div> -->
+        
+        <div class="next2">
+          <button onclick="login()">Login</button>
+        </div>
+    </div>
+    </section>
+
+
+
     <script src="app.js"></script>
 </body>
 </html>
